@@ -1,0 +1,9 @@
+#blinkText {
+    color: #2dbe5d;
+    transition: 0.5s;
+}
+
+body{
+    background-color: rgb(224, 16, 16);
+
+}

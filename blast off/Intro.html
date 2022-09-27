@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+        UAT space page for CSC102 at UAT.edu
+        by Glenn Truett 
+        JamTruet@uat.edu
+        
+        Assignment Launching your UAT Space Program HTML Document Tags.  
+        9-12-2022
+    -->
+<html>
+
+
+<head>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Glenn Truett's UAT Sapce Page</Title>
+</head>
+
+<body>
+    <!--the UATSpace Logo, downloaded from http://127.0.0.1:5500/intro.html -->
+
+    <img src="UATspacelogo-1.jpg">
+    <h1 id="blinkText">
+
+        UAT Space Program
+
+    </h1>
+    <p>
+        test of the paragraph tags.<br>
+        the paragraph tags are used in html to display more than one sentence.<br>
+        This can be more than one line of text. <br>
+    </p>
+    <script>
+
+        document.write("This is a test of the document.write function");
+    </script>
+    <br>
+    <br>
+    <br>
+    <h2>Countdown Timer</h2>
+    <div id="countDis"> time will appear here after start is pressed</div>
+    <br>
+    <br>
+    <button
+       onclick="countdownTimer();">Start</button> 
+    <button>
+        Stop
+    </button>
+   <br>
+   <br>
+   <script type="text/javascript">
+        var blink = document.getElementById('blinkText');
+        setInterval(function () {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 1500);
+    </script>
+
+</body>
+
+</html>
+</DOCTYPE>
